@@ -4,6 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 
+
 const Navbar = () => {
   return (
     <>
@@ -12,10 +13,10 @@ const Navbar = () => {
           <img className="mx-2 w-10" src={logo} alt="Logo" />
         </div>
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-          <FaLinkedin />
-          <FaGithub />
-          <FaSquareXTwitter />
-          <FaInstagram />
+          <a href="https://www.linkedin.com/in/shyambabu-arem-a82824290"><FaLinkedin className="linkedin hover:text-blue-500" /></a>
+          <a href="https://github.com/Shyam2615"><FaGithub className="hover:text-orange-500"/></a>
+          <a href="https://x.com/Shyam_2k4"><FaSquareXTwitter className="hover:text-black"/></a>
+          <a href="https://www.instagram.com/_mr_shyam_2k4/?hl=en"><FaInstagram className="hover:text-pink-700"/></a>
         </div>
       </nav>
     </>

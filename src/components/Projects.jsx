@@ -15,7 +15,7 @@ const Projects = () => {
       </motion.h2>
       <div>
         {PROJECTS.map((project, index) => (
-          <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
+          <a href={project.link} target="_blank"><div key={index} className="mb-8 flex flex-wrap lg:justify-center">
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
@@ -47,7 +47,7 @@ const Projects = () => {
                 </span>
               ))}
             </motion.div>
-          </div>
+          </div></a>
         ))}
       </div>
     </div>

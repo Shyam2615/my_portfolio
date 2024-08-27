@@ -2,10 +2,13 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import cp from "../assets/projects/cp.png"
+import donex from "../assets/projects/donex.png"
+import foodie from "../assets/projects/foodie.png"
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Java, Node.js, Django,Express.js, Rest-Framework, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 2 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js,Java, Django, Rest-Framework, Express.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
@@ -21,30 +24,34 @@ export const PROJECTS = [
   {
     title: "E-Commerce Website",
     image: project1,
+    link: "https://github.com/Shyam2615/EYN-Store",
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["HTML", "CSS", "React", "Django", "Mysql"],
   },
   {
-    title: "Task Management App",
-    image: project2,
+    title: "Company Portfolio",
+    image: cp,
+    link: "https://portfolio-client-kohl.vercel.app/",
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "An application for a company to showcase its works and getting contacts from client and userdata.",
+    technologies: ["react", "express.js", "node.js", "mongodb"],
   },
   {
-    title: "Portfolio Website",
-    image: project3,
+    title: "Website for Startup [DoneX]",
+    image: donex,
+    link: "https://donexinfotech.vercel.app/",
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A Startup portfolio website showcasing projects, offers, and contact information.",
+    technologies: ["HTML", "CSS", "React", "Bootstrap", "Django-rest-framework"],
   },
   {
-    title: "Blogging Platform",
-    image: project4,
+    title: "Food Recepie Platform",
+    image: foodie,
+    link: "https://github.com/Shyam2615/RecipieBook",
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A platform for creating and publishing food recipes, with features like Creating,Updating,deleting, and user profiles.",
+    technologies: ["HTML", "CSS", "Django", "python", "mySQL"],
   },
 ];
 
