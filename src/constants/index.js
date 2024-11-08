@@ -1,6 +1,6 @@
 import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
+import project5 from "../assets/projects/project-5.png";
+import blogs from "../assets/projects/blogs.png";
 import project4 from "../assets/projects/project-4.jpg";
 import cp from "../assets/projects/cp.png"
 import donex from "../assets/projects/donex.png"
@@ -52,6 +52,22 @@ export const PROJECTS = [
     description:
       "A platform for creating and publishing food recipes, with features like Creating,Updating,deleting, and user profiles.",
     technologies: ["HTML", "CSS", "Django", "python", "mySQL"],
+  },
+  {
+    title: "AI-Powered Voice replacement",
+    image: project5,
+    link: "https://audio-replacement.streamlit.app/",
+    description:
+      "A platform where the audio is extracted from the video and the grammatical error are corrected and new audio is generated and merged to the video.",
+    technologies: ["Python", "Streamlit", "Open-ai", "google-cloud"],
+  },
+  {
+    title: "Cybi-Aware",
+    image: blogs,
+    link: "https://cybiaware-donex.vercel.app/",
+    description:
+      "A platform where you stay updated about the cybersecurity trends. This is a blogging website with user authentication, comment on blogs, password reset, email verification, blog report etc...",
+    technologies: ["Html", "Css", "React.js", "Node.js", "Express.js", "Mongodb"],
   },
 ];
 
