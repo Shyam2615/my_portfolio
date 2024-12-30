@@ -4,7 +4,7 @@ import blogs from "../assets/projects/blogs.png";
 import project4 from "../assets/projects/project-4.jpg";
 import cp from "../assets/projects/cp.png"
 import donex from "../assets/projects/donex.png"
-import foodie from "../assets/projects/foodie.png"
+import bhpp from "../assets/projects/bhpp.png"
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Java, Node.js, Django,Express.js, Rest-Framework, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -46,12 +46,12 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Bootstrap", "Django-rest-framework"],
   },
   {
-    title: "Food Recepie Platform",
-    image: foodie,
-    link: "https://github.com/Shyam2615/RecipieBook",
+    title: "Banglore House Price Prediction",
+    image: bhpp,
+    link: "https://banglore-house-price-prediction-uw28.vercel.app/",
     description:
-      "A platform for creating and publishing food recipes, with features like Creating,Updating,deleting, and user profiles.",
-    technologies: ["HTML", "CSS", "Django", "python", "mySQL"],
+      "This project involves developing a machine learning model to predict house prices in Bangalore based on various factors such as location, size, number of bedrooms, square footage, and more. The model was trained on a dataset containing real estate data from Bangalore and was optimized for accuracy and performance.",
+    technologies: ["Machine learning", "Flask", "HTML", "CSS", "JS", "Python"],
   },
   {
     title: "AI-Powered Voice replacement",
