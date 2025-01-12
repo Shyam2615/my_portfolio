@@ -5,6 +5,7 @@ import project4 from "../assets/projects/project-4.jpg";
 import cp from "../assets/projects/cp.png"
 import donex from "../assets/projects/donex.png"
 import bhpp from "../assets/projects/bhpp.png"
+import nullclass from "../assets/experience/nullclassdotcom_logo.jpg"
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Java, Node.js, Django,Express.js, Rest-Framework, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -12,11 +13,16 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2022 - Present",
-    role: "Freelancer",
-    company: "Freelancer.com",
-    description: `Worked with many projects for different clients in the field of web development, app development and machine learning and learned many new technologies`,
+    year: "2024",
+    role: "WEB DEVELOPER INTERN",
+    company: "NULLCLASS",
+    description: `Worked with solving real-world problems and delivering impactful web solutions.
+    During this journey, I had the opportunity to:
+    Develop and maintain web applications using modern frameworks and libraries.
+    Implement responsive design to ensure optimal user experience across devices.
+    Optimize application performance and enhance user experience.`,
     technologies: ["Javascript", "React.js", "Node.js", "mongoDB", "Django", "mysql"],
+    image : nullclass
   },
 ];
 

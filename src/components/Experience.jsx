@@ -21,7 +21,10 @@ const Experience = () => {
               transition={{ duration: 1 }}
               className="w-full lg:w-1/4"
             >
-              <p className="mb-2 text-sm text-neutral-400">{experience.year}</p>
+              <div className="flex flex-col items-center">
+                <img className="mb-2" src={experience.image} alt="Image" height="150"/>
+                <p className="mb-2 mx-4 text-sm text-neutral-400">{experience.year}</p>
+              </div>
             </motion.div>
             <motion.div
             whileInView={{ opacity: 1, x: 0 }}
