@@ -4,7 +4,7 @@ import blogs from "../assets/projects/blogs.png";
 import project4 from "../assets/projects/project-4.jpg";
 import cp from "../assets/projects/cp.png"
 import donex from "../assets/projects/donex.png"
-import bhpp from "../assets/projects/bhpp.png"
+import bhpp from "../assets/projects/BHPP.png"
 import nullclass from "../assets/experience/nullclassdotcom_logo.jpg"
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Java, Node.js, Django,Express.js, Rest-Framework, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
